@@ -43,8 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EvenOrOdd.cs" />
+    <Compile Include="FlipCoin.cs" />
+    <Compile Include="GreatestOfThreeNumbers.cs" />
+    <Compile Include="HarmonicNumber.cs" />
+    <Compile Include="LeapYear.cs" />
+    <Compile Include="PowerOfNumber.cs" />
+    <Compile Include="PrimeFactorization.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuotientAndRemainder.cs" />
+    <Compile Include="SwapNumbers.cs" />
+    <Compile Include="VowelAndConsonant.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
