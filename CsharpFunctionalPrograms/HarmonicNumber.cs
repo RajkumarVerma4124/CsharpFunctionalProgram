@@ -8,12 +8,12 @@ namespace CsharpFunctionalPrograms
 {
     public class HarmonicNumber
     {
-        public static double num=0;
         public static double i;
 
         //Method to compute the harmonic number
         public static void GetTotalHarmonicNum(int range)
         {
+            double num = 0;
             if (range != 0)
             {
                 for (i = 1; i <= range; i++)
@@ -26,8 +26,8 @@ namespace CsharpFunctionalPrograms
             }
             else
             {
-                Console.WriteLine("\nEnter a positive number");
-                //return;
+                Console.WriteLine("Enter a number greater than zero");
+                Console.ReadLine();
             }
         }
     }

@@ -9,8 +9,6 @@ namespace CsharpFunctionalPrograms
     public class FlipCoin
     {
         //Initializing And Declaring Static Variables   
-        private static int headCount = 0;
-        private static int tailCount = 0;
         private static double headPercent;
         private static double tailPercent;
         private static Random random = new Random();
@@ -19,6 +17,7 @@ namespace CsharpFunctionalPrograms
         //Method To Get The Percentage Of Heads And Tails
         public static void ThrowCoin(int flipCount)
         {
+            int headCount = 0,tailCount = 0;
             Console.WriteLine("The Coin Is Flipped : ");
             int tempCount = flipCount;
             while(tempCount > 0)
